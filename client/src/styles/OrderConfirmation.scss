@@ -1,0 +1,42 @@
+.message-container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+
+  .message-article {
+    width: 400px;
+    height: 450px;
+    margin: 100px auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+
+    .message-heading {
+      font-size: 30px;
+      color: #CA95A7;
+      letter-spacing: 0.25rem;
+    }
+    .message-img {
+      height: 125px;
+      width: 125px;
+    }
+    .message-text {
+      color: #7e2442;
+      font-size: 20px;
+    }
+    .home-btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ae7387;
+      color: #fff;
+      font-weight: 700;
+    }
+    .home-btn:hover {
+      background-color: #7e2442;
+    }
+  }
+}

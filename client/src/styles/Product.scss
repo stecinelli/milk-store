@@ -1,0 +1,79 @@
+.product-container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+
+    .product-article {
+      margin: 100px auto;
+      color: #000;
+
+      .back-arrow {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: #380e1b;
+        margin-bottom: 50px;
+      }
+      .back-arrow:hover {
+        cursor: pointer;
+        color: #CA95A6;
+      }
+      .back-arrow p {
+        margin: 0;
+      }
+    }
+    .product {
+      display: flex;
+
+      .product-img {
+        height: 250px;
+        width: 275px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+      }
+      .product-milk-img {
+        height: 175px;
+        width: 200px;
+      }
+      .product-detail {
+        height: 250px;
+        width: 300px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .product-text {
+        margin: 3px;
+      }
+      .product-text:nth-of-type(1) {
+        font-weight: 700;
+      }
+      .product-text:nth-of-type(3) {
+        margin-top: 15px;
+      }
+      .product-text:nth-of-type(4) {
+        text-align: center;
+      }
+      .slider {
+        margin: 20px 30px 0;
+        display: flex;
+        align-items: center;
+      }
+      .order-btn {
+        margin: 10px auto;
+        padding: 5px 25px;
+        color: #fff;
+        background-color: #CA95A6;
+        border: 1px solid #9b5e72;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .order-btn:hover {
+        cursor: pointer;
+        background-color: #9b5e72;
+      }
+    }
+}

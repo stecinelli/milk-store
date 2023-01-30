@@ -1,0 +1,33 @@
+.searchbar {
+  width: 1000px;
+}
+
+.refresh {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.product-count {
+  width: 1000px;
+  padding: 0 15px;
+  margin: 20px auto;
+  font-weight: 700;
+}
+
+.gallery {
+  width: 1000px;
+  min-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.pagination {
+  width: 1000px;
+  height: 6rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 

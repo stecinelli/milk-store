@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 32px;
+  background-color: #CA95A7;
+}
+
+.footer-text {
+  width: 40%;
+  font-size: 15px;
+  color: #670a35;
+  margin: 0;
+}
+
+.footer-text:nth-of-type(2) {
+  text-align: right;
+}
+
+.footer-img {
+  margin-top: 4px;
+}
+
+.footer-link {
+  text-decoration: underline;
+  margin-left: 4px;
+  color: #670a35;
+}
